@@ -9,3 +9,4 @@ class kproducer(threading.Thread):
     def produceQueue(topic, message):
         kproducer.Kprod.send(topic, message)
         time.sleep(1)
+
